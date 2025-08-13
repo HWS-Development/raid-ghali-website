@@ -1,0 +1,255 @@
+{
+    "nav": {
+      "home": "Accueil",
+      "rooms": "Chambres & Suites",
+      "restospa": "Restaurant & Spa",
+      "gallery": "Galerie",
+      "contact": "Contact",
+      "book": "Réserver"
+    },
+    "hero": {
+      "title": "Profitez des plus beaux moments de la vie"
+    },
+    "booking": {
+      "checkin": "Arrivée",
+      "checkout": "Départ",
+      "adults": "Adultes",
+      "promo": "Code promo",
+      "check": "Voir les disponibilités"
+    },
+    "common": {
+      "see_all": "Voir tout",
+      "close": "Fermer",
+      "learn_more": "En savoir plus"
+    },
+    "rooms": {
+      "heading": "Chambres & Suites",
+      "view_room": "Voir la chambre",
+      "from": "À partir de",
+      "size": "Superficie",
+      "bed": "Lit",
+      "capacity": "Capacité",
+      "book_now": "Réserver"
+    },
+    "footer": {
+      "cta_title": "Prêt à séjourner chez nous ?",
+      "explore": "Explorer",
+      "get_in_touch": "Contact",
+      "find_us": "Nous trouver",
+      "maps": "Google Maps"
+    },
+    "home": {
+        "facilities": {
+        "title": "Équipements & Services",
+        "items": [
+            { "label": "Wi-Fi gratuit" },
+            { "label": "Terrasse rooftop" },
+            { "label": "Spa & Hammam" },
+            { "label": "Restaurant" },
+            { "label": "Transfert aéroport" },
+            { "label": "Emplacement central" }
+        ]
+        },
+        "reviews": {
+        "title": "Avis clients",
+        "average": "Note moyenne",
+        "items": [
+          { "stars": 5, "name": "Ferenc.", "source": "Booking.com", "text": "Breakfast was delicious, served on the rooftop..." },
+          { "stars": 5, "name": "Annie.", "source": "Booking.com", "text": "Amazing welcome from the front team who were extremely helpful..." },
+          { "stars": 5, "name": "Judy.", "source": "Booking.com", "text": "Staff very helpful and friendly." },
+          { "stars": 5, "name": "Vytautas.", "source": "Booking.com", "text": "Our recent stay at Riad Ghali in Morocco was magical..." },
+          { "stars": 5, "name": "Kenneth.", "source": "Booking.com", "text": "The location.Great rooftop views. Lovely breakfast. Very pleasant." },
+          { "stars": 5, "name": "Sharon.", "source": "Booking.com", "text": "Breakfast was basic: fruit juice, egg, bread, cake, coffee and mint tea..." },
+          { "stars": 5, "name": "An.", "source": "Booking.com", "text": "Very nice location. If you taxi drops you off at the right place..." }
+        ]
+        },
+        "location": {
+        "title": "Localisation",
+        "blurb": "Au cœur de la médina de Marrakech — ruelles paisibles, à deux pas des sites majeurs.",
+        "distances": [
+            { "icon": "🕌", "label": "Jemaa el-Fna", "time": "2 min à pied" },
+            { "icon": "🕍", "label": "Koutoubia", "time": "10 min à pied" },
+            { "icon": "✈️", "label": "Aéroport", "time": "20 min en taxi" }
+        ],
+        "cta_directions": "Itinéraire",
+        "cta_transfer": "Demander un transfert"
+        },
+        "teasers": {
+          "restospa_title": "Restaurant & Spa",
+          "restospa_text": "Cuisine marocaine et soins bien-être traditionnels.",
+          "guide_title": "Visites guidées",
+          "guide_text": "Explorez les joyaux cachés."
+        },
+        "featured": {
+          "items": [
+            {
+              "id": "spa",
+              "category": "Expériences",
+              "title": "Centre de Spa",
+              "text": "Bien-être indulgent avec rituels de hammam et massages relaxants.",
+              "href": "/restaurant-spa#spa",
+              "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1600&auto=format&fit=crop"
+            },
+            {
+              "id": "emlux",
+              "category": "Transport",
+              "title": "EM LUXURY",
+              "text": "Transferts aéroport et excursions privées avec chauffeurs professionnels.",
+              "href": "/contact",
+              "image": "/images/tour.jpg"
+            },
+            {
+              "id": "rooftop",
+              "category": "Découvrir",
+              "title": "L'AMAZIGH Rooftop",
+              "text": "Dînez avec vue panoramique sur la médina et une cuisine marocaine raffinée.",
+              "href": "/restaurant-spa#restaurant",
+              "image": "/images/resto2.jpg"
+            },
+            {
+              "id": "abaka",
+              "category": "Expériences",
+              "title": "ABAKA RIAD By Ghali",
+              "text": "Ambiance chaleureuse à deux pas de Jemaa el-Fna—confort traditionnel et service attentionné.",
+              "href": "https://abaka.riadghali.com/",
+              "image": "/images/abaka.webp"
+            },
+            {
+              "id": "sania",
+              "category": "Découvrir",
+              "title": "SANIA RIAD By Ghali",
+              "text": "Maison d’hôtes pleine de charme, proche des principales attractions et jardins.",
+              "href": "https://sania.riadghali.com/",
+              "image": "/images/sania.webp"
+            }
+          ]
+        },
+        "about": {
+          "title": "À propos de Riad Ghali & SPA",
+          "intro": "Situé dans le quartier paisible de Laksour — à deux pas de l’effervescence de la médina — Riad Ghali & Spa a été entièrement rénové en 2019. Deux patios reliés, un bassin intérieur, une terrasse ombragée et deux terrasses offrent une oasis de calme au cœur de Marrakech.",
+          "highlights": [
+            "Rénové en 2019 avec services & équipements améliorés",
+            "Deux patios reliés à l’étage pour faciliter l’accès",
+            "Petit-déjeuner autour du patio principal près de la piscine, accès terrasse pour éviter l’attente",
+            "Centre de bien-être : massages, sauna, hammam & soins",
+            "Chambres au style marocain avec Wi-Fi gratuit & TV satellite ; suites avec coin salon",
+            "Petit-déjeuner marocain quotidien ; excursions & transfert aéroport (suppl.)",
+            "Quartier Laksour : havre de paix à 5 min de l’agitation de la médina"
+          ],
+          "stats": [
+            { "label": "Jemaa el-Fna", "value": "2 min" },
+            { "label": "Koutoubia", "value": "10 min" },
+            { "label": "Patios", "value": "2" },
+            { "label": "Terrasses", "value": "2" }
+          ],
+          "cta_primary": "Nous contacter",
+          "cta_secondary": "Spa & Restaurant"
+        }
+    },
+    "restospa": {
+        "title": "Restaurant & Spa",
+        "intro": "Cuisine marocaine et bien-être traditionnel au cœur de Marrakech.",
+        "labels": {
+        "restaurant": "Restaurant",
+        "menu": "Menu",
+        "spa": "Spa & Bien-être",
+        "treatments": "Soins",
+        "duration": "Durée",
+        "from": "À partir de"
+        },
+        "cta": { "call": "Réserver par téléphone", "whatsapp": "Nous écrire sur WhatsApp" },
+        "menu": {
+          "sections": [
+              {
+              "id": "formulas",
+              "items": [
+                  { "name": "Cuisines :", "desc": "Marocain, International, Barbecue/Grill"},
+                  { "name": "Terrasse", "desc": "Le charme de Medina View" }
+              ]
+              },
+              {
+              "id": "classics",
+              "items": [
+                  { "name": "Régimes spéciaux", "desc": "Convient aux végétariens et aux halal" },
+                  { "name": "Plats", "desc": "Petit-déjeuner / Déjeuner / Dîner" }
+              ]
+              }
+          ]
+        },
+        "treatments": {
+        "categories": [
+            {
+                "id": "rituals",
+                "items": [
+                    { 
+                        "name": "Le Hammam Traditionnel : Un Rituel Ancestral", 
+                        "desc": "Profitez des bienfaits purifiants du hammam marocain. Sous la douce chaleur de la vapeur, laissez vos tensions se dissiper et votre peau retrouver son éclat et sa douceur. Nos soins incluent un gommage au savon noir pour un véritable moment de ressourcement."
+                    },
+                    { 
+                        "name": "Massages relaxants et thérapeutiques", 
+                        "desc": "Offrez-vous un moment de détente grâce à nos massages réalisés par des mains expertes. Que vous souhaitiez soulager des tensions musculaires, retrouver votre énergie ou simplement vous relaxer, nous adaptons chaque massage à vos besoins."
+                    }
+                ]
+            },
+            {
+                "id": "massages",
+                "items": [
+                    { 
+                        "name": "Soins esthétiques et de beauté", 
+                        "desc": "Sublimez votre peau grâce à nos soins esthétiques. Nous utilisons des produits naturels pour révéler l’éclat de votre visage et restaurer sa vitalité. Nettoyage en profondeur, hydratation intense et soins ciblés : à chaque type de peau son rituel."
+                    },
+                    { 
+                        "name": "Soin du visage : Éclat et douceur", 
+                        "desc": "Lors de votre prise de rendez-vous, veuillez nous informer de tout problème de santé, comme l’hypertension artérielle, les allergies, ainsi que de toute grossesse ou autre souci médical. La consommation d’alcool est déconseillée avant ou juste après les soins, ainsi qu’avant l’utilisation des installations du spa et du centre de remise en forme."
+                    }
+                ]
+            }
+        ]
+        }
+    },
+    "gallery": {
+      "title": "Galerie",
+      "filters": {
+        "all": "Tout",
+        "rooms": "Chambres",
+        "rooftop": "Rooftop",
+        "extra": "Extra",
+        "spa": "Spa",
+        "medina": "Médina"
+      },
+      "empty": "Aucune photo pour ce filtre."
+    },
+    "contact_page": {
+      "title": "Contactez-nous",
+      "intro": "Questions, réservations ou demandes spéciales — envoyez-nous un message et nous vous répondrons rapidement.",
+      "info": {
+        "address_title": "Adresse",
+        "address_lines": [
+          "Rue Moulay Taieb Ghali, Marrakech",
+          "40030, Maroc"
+        ],
+        "phone_title": "Téléphone",
+        "email_title": "Email",
+        "hours_title": "Horaires",
+        "hours_lines": ["Tous les jours", "7h30 – 22h00"]
+      },
+      "cta": { "call": "Appeler", "whatsapp": "WhatsApp", "email": "Email" },
+      "form": {
+        "name": "Votre nom",
+        "email": "Votre email",
+        "phone": "Votre téléphone (optionnel)",
+        "subject": "Sujet",
+        "message": "Message",
+        "consent": "J’accepte d’être contacté au sujet de ma demande.",
+        "send": "Envoyer le message",
+        "sending": "Envoi…",
+        "success_title": "Merci ! Votre message a bien été envoyé.",
+        "success_text": "Nous vous répondrons au plus vite.",
+        "error_title": "Veuillez vérifier le formulaire.",
+        "error_text": "Certaines informations sont manquantes ou invalides.",
+        "required": "Champ requis."
+      }
+    }
+      
+  }
+  

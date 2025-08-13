@@ -1,0 +1,255 @@
+{
+    "nav": {
+      "home": "Home",
+      "rooms": "Rooms & Suites",
+      "restospa": "Restaurant & Spa",
+      "gallery": "Gallery",
+      "contact": "Contact",
+      "book": "Book Now"
+    },
+    "hero": {
+      "title": "Enjoy the best moments of life"
+    },
+    "booking": {
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "adults": "Adults",
+      "promo": "Promo code",
+      "check": "Check availability"
+    },
+    "common": {
+      "see_all": "See all",
+      "close": "Close",
+      "learn_more": "Learn more"
+    },
+    "rooms": {
+      "heading": "Rooms & Suites",
+      "view_room": "View room",
+      "from": "From",
+      "size": "Size",
+      "bed": "Bed",
+      "capacity": "Capacity",
+      "book_now": "Book Now"
+    },
+    "footer": {
+      "cta_title": "Ready to stay with us?",
+      "explore": "Explore",
+      "get_in_touch": "Get in touch",
+      "find_us": "Find us",
+      "maps": "Google Maps"
+    },
+    "restospa": {
+        "title": "Restaurant & Spa",
+        "intro": "Moroccan cuisine and traditional wellness in the heart of Marrakech.",
+        "labels": {
+        "restaurant": "Restaurant",
+        "menu": "Menu",
+        "spa": "Spa & Wellness",
+        "treatments": "Treatments",
+        "duration": "Duration",
+        "from": "From"
+        },
+        "cta": { "call": "Call to book", "whatsapp": "WhatsApp us" },
+        "menu": {
+        "sections": [
+            {
+                "id": "formulas",
+                "items": [
+                    { "name": "Cuisines:", "desc": "Moroccan, International, Barbecue/Grill" },
+                    { "name": "Terrace", "desc": "The charm of Medina View" }
+                ]
+            },
+            {
+                "id": "classics",
+                "items": [
+                    { "name": "Special diets", "desc": "Suitable for vegetarians and halal" },
+                    { "name": "Dishes", "desc": "Breakfast / Lunch / Dinner" }
+                ]
+            }
+        ]
+        },
+        "treatments": {
+        "categories": [
+            {
+                "id": "rituals",
+                "items": [
+                    { 
+                        "name": "The Traditional Hammam: An Ancestral Ritual", 
+                        "desc": "Enjoy the purifying benefits of the Moroccan hammam. Under the gentle warmth of the steam, let your tensions melt away and your skin regain its radiance and softness. Our treatments include an exfoliation with black soap for a true moment of rejuvenation."
+                    },
+                    { 
+                        "name": "Relaxing and therapeutic massages", 
+                        "desc": "Treat yourself to a moment of relaxation with our massages performed by expert hands. Whether you wish to relieve muscle tension, regain your energy, or simply unwind, we tailor each massage to your needs."
+                    }
+                ]
+            },
+            {
+                "id": "massages",
+                "items": [
+                    { 
+                        "name": "Aesthetic and beauty treatments", 
+                        "desc": "Enhance your skin with our beauty treatments. We use natural products to reveal your face’s radiance and restore its vitality. Deep cleansing, intense hydration, and targeted care: each skin type has its own ritual."
+                    },
+                    { 
+                        "name": "Facial care: Radiance and softness", 
+                        "desc": "When booking your appointment, please inform us of any health issues, such as high blood pressure, allergies, as well as any pregnancy or other health concerns. Alcohol consumption is not recommended before or immediately after treatments, nor before using the spa and fitness facilities."
+                    }
+                ]
+            }
+        ]
+        }
+    },
+    "home": {
+        "facilities": {
+        "title": "Facilities & Services",
+        "items": [
+            { "label": "Free Wi-Fi" },
+            { "label": "Rooftop terrace" },
+            { "label": "Spa & Hammam" },
+            { "label": "Restaurant" },
+            { "label": "Airport transfer" },
+            { "label": "Central location" }
+        ]
+        },
+        "reviews": {
+        "title": "Guest reviews",
+        "average": "Average rating",
+        "items": [
+          { "stars": 5, "name": "Ferenc.", "source": "Booking.com", "text": "Breakfast was delicious, served on the rooftop..." },
+          { "stars": 5, "name": "Annie.", "source": "Booking.com", "text": "Amazing welcome from the front team who were extremely helpful..." },
+          { "stars": 5, "name": "Judy.", "source": "Booking.com", "text": "Staff very helpful and friendly." },
+          { "stars": 5, "name": "Vytautas.", "source": "Booking.com", "text": "Our recent stay at Riad Ghali in Morocco was magical..." },
+          { "stars": 5, "name": "Kenneth.", "source": "Booking.com", "text": "The location.Great rooftop views. Lovely breakfast. Very pleasant." },
+          { "stars": 5, "name": "Sharon.", "source": "Booking.com", "text": "Breakfast was basic: fruit juice, egg, bread, cake, coffee and mint tea..." },
+          { "stars": 5, "name": "An.", "source": "Booking.com", "text": "Very nice location. If you taxi drops you off at the right place..." }
+        ]
+        },
+        "location": {
+        "title": "Location",
+        "blurb": "In the heart of Marrakech’s medina — quiet alleys, steps from major sights.",
+        "distances": [
+            { "icon": "🕌", "label": "Jemaa el-Fna", "time": "5 min walk" },
+            { "icon": "🕍", "label": "Koutoubia", "time": "12 min walk" },
+            { "icon": "✈️", "label": "Airport", "time": "20 min by taxi" }
+        ],
+        "cta_directions": "Get directions",
+        "cta_transfer": "Request transfer"
+        },
+        "teasers": {
+          "restospa_title": "Restaurant & Spa",
+          "restospa_text": "Moroccan cuisine and traditional wellness treatments.",
+          "guide_title": "Guided Tours",
+          "guide_text": "Discover the hidden joy."
+        },
+        "featured": {
+          "items": [
+            {
+              "id": "spa",
+              "category": "Experiences",
+              "title": "Spa Center",
+              "text": "Indulgent wellness with hammam rituals and relaxing massages.",
+              "href": "/restaurant-spa#spa",
+              "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1600&auto=format&fit=crop"
+            },
+            {
+              "id": "emlux",
+              "category": "Transportation",
+              "title": "EM LUXURY",
+              "text": "Seamless airport transfers and private excursions with professional drivers.",
+              "href": "/contact",
+              "image": "/images/tour.jpg"
+            },
+            {
+              "id": "rooftop",
+              "category": "Discover",
+              "title": "L'AMAZIGH Rooftop",
+              "text": "Dine with panoramic Medina views and a refined Moroccan menu.",
+              "href": "/restaurant-spa#restaurant",
+              "image": "/images/resto2.jpg"
+            },
+            {
+              "id": "abaka",
+              "category": "Experiences",
+              "title": "ABAKA RIAD By Ghali",
+              "text": "Cozy atmosphere steps from Jemaa el-Fna—traditional comfort and warm service.",
+              "href": "https://abaka.riadghali.com/",
+              "image": "/images/abaka.webp"
+            },
+            {
+              "id": "sania",
+              "category": "Discover",
+              "title": "SANIA RIAD By Ghali",
+              "text": "Charming guesthouse near major attractions and gardens of Marrakech.",
+              "href": "https://sania.riadghali.com/",
+              "image": "/images/sania.webp"
+            }
+          ]
+        },
+        "about": {
+          "title": "About Riad Ghali & SPA",
+          "intro": "In the peaceful Laksour district—just steps from the medina’s energy—Riad Ghali & Spa was completely renovated in 2019. Two connected patios, an indoor plunge pool, a shaded rooftop and two terraces shape a calm oasis in the heart of Marrakech.",
+          "highlights": [
+            "Renovated in 2019 with upgraded service & equipment",
+            "Two patios linked on the upper floor for easy access",
+            "Breakfast around the main patio by the pool; terrace overflow to reduce waiting",
+            "Wellness center: massages, sauna, steam room & treatments",
+            "Moroccan-style rooms with free Wi-Fi & satellite TV; suites add sitting areas",
+            "Daily Moroccan breakfast; excursions & airport shuttle (surcharge)",
+            "Laksour area: a quiet pocket 5 minutes from the medina’s bustle"
+          ],
+          "stats": [
+            { "label": "Jemaa el-Fna", "value": "2 min" },
+            { "label": "Koutoubia", "value": "10 min" },
+            { "label": "Patios", "value": "2" },
+            { "label": "Terraces", "value": "2" }
+          ],
+          "cta_primary": "Contact us",
+          "cta_secondary": "Spa & Restaurant"
+        }
+    },
+    "gallery": {
+        "title": "Gallery",
+        "filters": {
+        "all": "All",
+        "rooms": "Rooms",
+        "rooftop": "Rooftop",
+        "spa": "Spa",
+        "extra": "Extra",
+        "medina": "Medina"
+        },
+        "empty": "No photos for this filter."
+    },
+    "contact_page": {
+      "title": "Contact Us",
+      "intro": "Questions, reservations, or special requests—send us a message and we’ll get back quickly.",
+      "info": {
+        "address_title": "Address",
+        "address_lines": [
+          "Rue Moulay Taieb Ghali, Marrakech",
+          "40030, Morocco"
+        ],
+        "phone_title": "Phone",
+        "email_title": "Email",
+        "hours_title": "Hours",
+        "hours_lines": ["Daily", "7:30 am – 10:00 pm"]
+      },
+      "cta": { "call": "Call", "whatsapp": "WhatsApp", "email": "Email" },
+      "form": {
+        "name": "Your name",
+        "email": "Your email",
+        "phone": "Your phone (optional)",
+        "subject": "Subject",
+        "message": "Message",
+        "consent": "I agree to be contacted regarding my request.",
+        "send": "Send message",
+        "sending": "Sending…",
+        "success_title": "Thank you! Your message has been sent.",
+        "success_text": "We’ll reply as soon as possible.",
+        "error_title": "Please check the form.",
+        "error_text": "Some information is missing or invalid.",
+        "required": "This field is required."
+      }
+    }
+       
+  }
+  
