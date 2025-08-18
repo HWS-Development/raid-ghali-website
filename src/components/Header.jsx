@@ -28,7 +28,8 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-6">
           <NavLink to="/" className={linkClass}>{t('nav.home')}</NavLink>
           <NavLink to="/rooms" className={linkClass}>{t('nav.rooms')}</NavLink>
-          <NavLink to="/restaurant-spa" className={linkClass}>{t('nav.restospa')}</NavLink>
+          <NavLink to="/restaurant" className={linkClass}>{t('nav.restospa')}</NavLink>
+          <NavLink to="/discover" className={linkClass}>{t('nav.discover')}</NavLink>
           <NavLink to="/gallery" className={linkClass}>{t('nav.gallery')}</NavLink>
           <NavLink to="/contact" className={linkClass}>{t('nav.contact')}</NavLink>
         </nav>
@@ -55,7 +56,8 @@ export default function Header() {
           <div className="px-4 py-3 flex flex-col gap-3 max-w-[1200px] mx-auto">
             <NavLink to="/" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.home')}</NavLink>
             <NavLink to="/rooms" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.rooms')}</NavLink>
-            <NavLink to="/restaurant-spa" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.restospa')}</NavLink>
+            <NavLink to="/restaurant" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.restospa')}</NavLink>
+            <NavLink to="/discover" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.discover')}</NavLink>
             <NavLink to="/gallery" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.gallery')}</NavLink>
             <NavLink to="/contact" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.contact')}</NavLink>
             <button onClick={() => { setOpen(false); goToBooking(); }} className="mt-1 inline-flex items-center rounded-xl px-4 py-2 bg-oasis text-white">

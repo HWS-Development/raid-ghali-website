@@ -8,7 +8,7 @@ export default function ServicesTeasers() {
     <section className="container mx-auto max-w-[1200px] px-4 pb-16">
         <div className="grid md:grid-cols-2 gap-6">
         <Link
-          to="/restaurant-spa"
+          to="/restaurant"
           className="group overflow-hidden rounded-2xl bg-white border border-black/5 shadow-soft hover:shadow-lg transition-shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-oasis/60"
         >
           <img
