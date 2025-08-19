@@ -2,7 +2,8 @@
     "nav": {
       "home": "Home",
       "rooms": "Rooms & Suites",
-      "restospa": "Restaurant & Spa",
+      "restospa": "Restaurant",
+      "discover": "Discover",
       "gallery": "Gallery",
       "contact": "Contact",
       "book": "Book Now"
@@ -136,8 +137,8 @@
         "cta_transfer": "Request transfer"
         },
         "teasers": {
-          "restospa_title": "Restaurant & Spa",
-          "restospa_text": "Moroccan cuisine and traditional wellness treatments.",
+          "restospa_title": "Restaurant",
+          "restospa_text": "Moroccan cuisine.",
           "guide_title": "Guided Tours",
           "guide_text": "Discover the hidden joy."
         },
@@ -148,7 +149,7 @@
               "category": "Experiences",
               "title": "Spa Center",
               "text": "Indulgent wellness with hammam rituals and relaxing massages.",
-              "href": "/restaurant-spa#spa",
+              "href": "/discover#spa",
               "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1600&auto=format&fit=crop"
             },
             {
@@ -249,6 +250,10 @@
         "error_text": "Some information is missing or invalid.",
         "required": "This field is required."
       }
+    },
+    "discover": {
+      "title": "Discover",
+      "intro": "More ways to enjoy Riad Ghali & Spa."
     }
        
   }

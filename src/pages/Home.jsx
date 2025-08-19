@@ -54,7 +54,12 @@ export default function Home() {
       {/* Teasers: Restaurant & Spa + Gallery */}
       <ServicesTeasers />
       <AboutUsSection />
-      <FeaturedPairs />
+      <FeaturedPairs
+        limit={2}
+        heading={t('discover.title')}
+        ctaLink="/discover"
+        ctaText={t('common.see_all')}
+      />
       {/* Quick-View Modal */}
       {selected && <RoomQuickView room={selected} onClose={() => setSelected(null)} />}
     </>

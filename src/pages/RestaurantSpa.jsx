@@ -1,13 +1,14 @@
 import { useTranslation } from 'react-i18next';
+import SectionWaveBottom from '../components/SectionWaveBottom';
 
-function SectionHeader({ overline, title, actions }) {
+function SectionHeader({ overline, title }) {
   return (
     <div className="flex flex-wrap items-end justify-between gap-4 mb-4">
       <div>
         {overline && <div className="text-xs tracking-widest uppercase opacity-60">{overline}</div>}
         <h2 className="font-serif text-2xl">{title}</h2>
       </div>
-      {actions}
+      {/* {actions} */}
     </div>
   );
 }
@@ -62,9 +63,9 @@ export default function RestaurantSpa() {
   const menuSections = (t('restospa.menu.sections', { returnObjects: true }) || []).map(s => ({
     ...s, title: s.title, items: s.items
   }));
-  const treatmentCats = (t('restospa.treatments.categories', { returnObjects: true }) || []).map(c => ({
-    ...c, title: c.title, items: c.items
-  }));
+  // const treatmentCats = (t('restospa.treatments.categories', { returnObjects: true }) || []).map(c => ({
+  //   ...c, title: c.title, items: c.items
+  // }));
 
   return (
     <div className="pb-12">
@@ -81,7 +82,7 @@ export default function RestaurantSpa() {
           <p className="text-white/90 mt-2 max-w-[720px]">{t('restospa.intro')}</p>
           <div className="mt-3 flex gap-2">
             <a href="#restaurant" className="chip bg-white/90">#{t('restospa.labels.restaurant')}</a>
-            <a href="#spa" className="chip bg-white/90">#{t('restospa.labels.spa')}</a>
+            {/* <a href="#spa" className="chip bg-white/90">#{t('restospa.labels.spa')}</a> */}
           </div>
         </div>
       </section>
@@ -113,7 +114,7 @@ export default function RestaurantSpa() {
       </section>
 
       {/* SPA BAND (sand tint) */}
-      <section id="spa" className="py-10 bg-sand/25">
+      {/* <section id="spa" className="py-10 bg-sand/25">
         <div className="container mx-auto max-w-[1200px] px-4">
           <SectionHeader
             overline={t('restospa.labels.spa')}
@@ -138,7 +139,7 @@ export default function RestaurantSpa() {
             categories={treatmentCats}
           />
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -6,6 +6,8 @@ import RestaurantSpa from './pages/RestaurantSpa';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import Discover from './pages/Discover';
+
 
 export default function App() {
   return (
@@ -13,9 +15,10 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="rooms" element={<Rooms />} />
-        <Route path="restaurant-spa" element={<RestaurantSpa />} />
+        <Route path="restaurant" element={<RestaurantSpa />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="discover" element={<Discover />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
