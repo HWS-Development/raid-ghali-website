@@ -1,20 +1,11 @@
 import { useState } from 'react';
-import { NavLink, Link, useLocation, useNavigate } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
-  const { pathname } = useLocation();
-  const navigate = useNavigate();
-
-  const goToBooking = () => {
-    if (pathname !== '/') navigate('/');
-    setTimeout(() => {
-      document.getElementById('booking-widget')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }, 60);
-  };
 
   const linkClass = ({ isActive }) =>
     `px-2 py-1 transition hover:text-oasis ${isActive ? 'text-oasis' : 'text-gray-700'}`;
@@ -36,9 +27,12 @@ export default function Header() {
 
         <div className="hidden md:flex items-center gap-3">
           <LanguageSwitcher />
-          <button onClick={goToBooking} className="inline-flex items-center rounded-xl px-4 py-2 bg-oasis text-white shadow-soft hover:brightness-95">
+          <a
+                href="https://riad-ghali-spa.hotelrunner.com/bv3/search"
+                target="_blank"
+                rel="noreferrer" className="inline-flex items-center rounded-xl px-4 py-2 bg-oasis text-white shadow-soft hover:brightness-95">
             {t('nav.book')}
-          </button>
+          </a>
         </div>
 
         {/* Mobile controls */}
@@ -60,9 +54,12 @@ export default function Header() {
             <NavLink to="/discover" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.discover')}</NavLink>
             <NavLink to="/gallery" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.gallery')}</NavLink>
             <NavLink to="/contact" className={linkClass} onClick={()=>setOpen(false)}>{t('nav.contact')}</NavLink>
-            <button onClick={() => { setOpen(false); goToBooking(); }} className="mt-1 inline-flex items-center rounded-xl px-4 py-2 bg-oasis text-white">
+            <a
+                href="https://riad-ghali-spa.hotelrunner.com/bv3/search"
+                target="_blank"
+                rel="noreferrer" className="mt-1 inline-flex items-center rounded-xl px-4 py-2 bg-oasis text-white">
               {t('nav.book')}
-            </button>
+            </a>
           </div>
         </div>
       )}
