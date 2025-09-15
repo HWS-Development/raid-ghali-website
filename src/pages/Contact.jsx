@@ -6,7 +6,7 @@ import ContactInfoCard from '../components/ContactInfoCard';
 export default function Contact() {
   const { t } = useTranslation();
   const PHONE = '+212667815538';           // TODO: replace if needed
-  const EMAIL = 'info@riadghali.com';         // TODO: replace if needed
+  const EMAIL = 'colbail2016@gmail.com';         // TODO: replace if needed
 
   const [form, setForm] = useState({ name:'', email:'', phone:'', subject:'', message:'', consent:false, trap:'' });
   const [errors, setErrors] = useState({});
