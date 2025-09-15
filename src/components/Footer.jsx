@@ -41,7 +41,7 @@ export default function Footer() {
             <p className="opacity-90 mt-2">+212 667 815 538 • info@riadghali.com</p>
           </div>
           <div>
-            <h5 className="font-semibold mb-3">Explore</h5>
+            <h5 className="font-semibold mb-3">{t('footer.explore')}</h5>
             <ul className="space-y-2 opacity-90">
               <li><Link to="/" className="hover:underline">{t('nav.home')}</Link></li>
               <li><Link to="/rooms" className="hover:underline">{t('nav.rooms')}</Link></li>
@@ -51,11 +51,11 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h5 className="font-semibold mb-3">Get in touch</h5>
+            <h5 className="font-semibold mb-3">{t('footer.get_in_touch')}</h5>
             <ul className="space-y-2 opacity-90">
               <li><a href="tel:+212667815538" className="hover:underline">+212 667 815 538</a></li>
               <li><a href="mailto:info@riadghali.com" className="hover:underline">info@riadghali.com</a></li>
-              <li><a href="https://maps.google.com/?q=Marrakech" target="_blank" rel="noreferrer" className="hover:underline">Google Maps</a></li>
+              <li><a href="https://maps.app.goo.gl/6tQ7DNo2KaDV5v9U7" target="_blank" rel="noreferrer" className="hover:underline">Google Maps</a></li>
             </ul>
           </div>
         </div>

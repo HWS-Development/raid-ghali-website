@@ -9,7 +9,7 @@ export default function FeaturedPairs({ limit, heading, ctaLink, ctaText, classN
   if (!list.length) return null;
 
   return ( 
-    <section className={`container mx-auto max-w-[1200px] px-4 py-16 ${className}`}>
+    <section className={`container mx-auto max-w-[1200px] px-4 pt-16 pb-8 ${className}`}>
       {(heading || ctaLink) && (
         <div className="flex items-end justify-between mb-6">
           {heading ? <h2 className="font-serif text-2xl">{heading}</h2> : <span />}

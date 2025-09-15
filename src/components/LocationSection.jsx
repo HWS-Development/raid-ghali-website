@@ -37,9 +37,10 @@ export default function LocationSection() {
             <div className="rounded-2xl border border-black/5 shadow-soft overflow-hidden bg-white">
               {/* fixed height to avoid 'cut' look; iframe fills container */}
               <div className="h-[340px] w-full">
+              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.2137810517115!2d-7.9932762245444255!3d31.62799657416496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee42bc84bf99%3A0x71a18ad9e6af51cf!2sRiad%20Ghali%20%26%20spa!5e0!3m2!1sen!2sus!4v1757939710026!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
                 <iframe
                   title="Marrakech Map"
-                  src="https://www.google.com/maps?q=Jemaa%20el-Fna%2C%20Marrakech&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.2137810517115!2d-7.9932762245444255!3d31.62799657416496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee42bc84bf99%3A0x71a18ad9e6af51cf!2sRiad%20Ghali%20%26%20spa!5e0!3m2!1sen!2sus!4v1757939710026!5m2!1sen!2sus"
                   className="w-full h-full block"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
