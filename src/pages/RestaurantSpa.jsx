@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import SectionWaveBottom from '../components/SectionWaveBottom';
 
 function SectionHeader({ overline, title }) {
   return (
@@ -34,26 +33,6 @@ function MenuList({ sections }) {
   );
 }
 
-function TreatmentsList({ categories }) {
-  return (
-    <div className="grid md:grid-cols-2 gap-4">
-      {categories.map((cat) => (
-        <div key={cat.id} className="rounded-2xl border border-black/10 bg-white/90 p-4 shadow-soft">
-          <ul className="space-y-3">
-            {cat.items.map((it, i) => (
-              <li key={i} className="grid grid-cols-[1fr,auto] gap-4 items-start">
-                <div>
-                  <div className="font-medium">{it.name}</div>
-                  {it.desc && <div className="text-sm opacity-70">{it.desc}</div>}
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </div>
-  );
-}
 
 export default function RestaurantSpa() {
   const { t } = useTranslation();
@@ -68,11 +47,11 @@ export default function RestaurantSpa() {
   // }));
 
   return (
-    <div className="pb-12">
+    <div className="">
       {/* Hero with gradient overlay to reduce white feeling */}
       <section
         className="relative h-[220px] md:h-[280px] bg-cover bg-center flex items-end"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1600&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('/images/cover3.jpeg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/20 to-transparent" />
         <div className="container mx-auto max-w-[1200px] px-4 pb-5 relative">

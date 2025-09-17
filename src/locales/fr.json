@@ -112,7 +112,7 @@
               "category": "Expériences",
               "title": "ABAKA RIAD By Ghali",
               "text": "Ambiance chaleureuse à deux pas de Jemaa el-Fna—confort traditionnel et service attentionné.",
-              "href": "https://abaka.riadghali.com/",
+              "href": "https://abaka-riad-website.vercel.app",
               "image": "/images/abaka.webp"
             },
             {
@@ -148,8 +148,8 @@
         }
     },
     "restospa": {
-        "title": "Restaurant & Spa",
-        "intro": "Cuisine marocaine et bien-être traditionnel au cœur de Marrakech.",
+        "title": "Restaurant",
+        "intro": "Cuisine marocaine au cœur de Marrakech.",
         "labels": {
         "restaurant": "Restaurant",
         "menu": "Menu",

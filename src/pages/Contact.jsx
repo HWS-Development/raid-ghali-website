@@ -54,11 +54,11 @@ export default function Contact() {
   );
 
   return (
-    <div className="pb-16">
+    <div className="">
       {/* Hero */}
       <section
         className="relative h-[200px] md:h-[260px] bg-cover bg-center flex items-end"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1600&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('/images/cover5.jpeg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/20 to-transparent" />
         <div className="container mx-auto max-w-[1200px] px-4 pb-5 relative">

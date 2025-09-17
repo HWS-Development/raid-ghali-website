@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import RoomQuickView from '../components/RoomQuickView';
 import ROOMS from '../data/rooms'; 
@@ -94,7 +93,7 @@ export default function Rooms() {
         className="h-[200px] md:h-[260px] bg-cover bg-center flex items-end"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1920&auto=format&fit=crop')"
+            "url('/images/cover1.jpeg')"
         }}
       >
         <div className="container mx-auto max-w-[1200px] px-4 pb-6">

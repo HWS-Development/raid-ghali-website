@@ -19,11 +19,11 @@ export default function Discover() {
   }, [location]);
   
   return (
-    <div className="pb-16">
+    <div className="">
       {/* Hero with gentle overlay */}
       <section
         className="relative h-[200px] md:h-[260px] bg-cover bg-center flex items-end"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1920&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('/images/cover2.jpeg')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/20 to-transparent" />
         <div className="container mx-auto max-w-[1200px] px-4 pb-5 relative">

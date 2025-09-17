@@ -38,7 +38,7 @@ export default function AboutUsSection({ className = '' }) {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/images/spa.jpg"
+                src="/images/spa1.jpeg"
                 alt=""
                 className="rounded-2xl h-40 md:h-48 w-full object-cover"
                 loading="lazy"
