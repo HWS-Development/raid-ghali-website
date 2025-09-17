@@ -151,7 +151,7 @@
         "title": "Restaurant",
         "intro": "Cuisine marocaine au cœur de Marrakech.",
         "labels": {
-        "restaurant": "Restaurant",
+        "restaurant": "Restaurant", 
         "menu": "Menu",
         "spa": "Spa & Bien-être",
         "treatments": "Soins",
