@@ -51,9 +51,9 @@ function ListingCard({ room, index, onView, t, lang }) {
             <p className="mt-2 text-sm opacity-80 line-clamp-3">{desc}</p>
 
             <div className="mt-3 grid grid-cols-3 gap-2">
-              <Stat label={t('rooms.size')} value={`${room.size_m2}m²`} />
+              {room.size_m2 ? <Stat label={t('rooms.size')} value={`${room.size_m2}m²`}/> : ''}
               <Stat label={t('rooms.bed')} value={room.bed} />
-              <Stat label={t('rooms.capacity')} value={room.capacity} />
+              {room.capacity ? <Stat label={t('rooms.capacity')} value={room.capacity} /> : ''}
             </div>
 
             <div className="mt-4 flex gap-3">
