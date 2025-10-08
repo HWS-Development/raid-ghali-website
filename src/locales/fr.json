@@ -76,6 +76,7 @@
         "cta_transfer": "Demander un transfert"
         },
         "teasers": {
+          "title": "activités",
           "restospa_title": "Restaurant",
           "restospa_text": "Cuisine marocaine.",
           "guide_title": "Visites guidées",
@@ -84,12 +85,28 @@
         "featured": {
           "items": [
             {
+              "id": "abaka",
+              "category": "Expériences",
+              "title": "ABAKA RIAD By Ghali",
+              "text": "Ambiance chaleureuse à deux pas de Jemaa el-Fna—confort traditionnel et service attentionné.",
+              "href": "https://abaka-riad-website.vercel.app",
+              "image": "/images/abaka.webp"
+            },
+            {
               "id": "spa",
               "category": "Expériences",
               "title": "Centre de Spa",
               "text": "Bien-être indulgent avec rituels de hammam et massages relaxants.",
               "href": "/discover#spa",
               "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1600&auto=format&fit=crop"
+            },
+            {
+              "id": "sania",
+              "category": "Découvrir",
+              "title": "SANIA RIAD By Ghali",
+              "text": "Maison d’hôtes pleine de charme, proche des principales attractions et jardins.",
+              "href": "https://sania.riadghali.com/",
+              "image": "/images/sania.webp"
             },
             {
               "id": "emlux",
@@ -106,22 +123,6 @@
               "text": "Dînez avec vue panoramique sur la médina et une cuisine marocaine raffinée.",
               "href": "/restaurant-spa#restaurant",
               "image": "/images/resto2.jpg"
-            },
-            {
-              "id": "abaka",
-              "category": "Expériences",
-              "title": "ABAKA RIAD By Ghali",
-              "text": "Ambiance chaleureuse à deux pas de Jemaa el-Fna—confort traditionnel et service attentionné.",
-              "href": "https://abaka-riad-website.vercel.app",
-              "image": "/images/abaka.webp"
-            },
-            {
-              "id": "sania",
-              "category": "Découvrir",
-              "title": "SANIA RIAD By Ghali",
-              "text": "Maison d’hôtes pleine de charme, proche des principales attractions et jardins.",
-              "href": "https://sania.riadghali.com/",
-              "image": "/images/sania.webp"
             }
           ]
         },
@@ -130,12 +131,9 @@
           "intro": "Situé dans le quartier paisible de Laksour — à deux pas de l’effervescence de la médina — Riad Ghali & Spa a été entièrement rénové en 2019. Deux patios reliés, un bassin intérieur, une terrasse ombragée et deux terrasses offrent une oasis de calme au cœur de Marrakech.",
           "highlights": [
             "Rénové en 2019 avec services & équipements améliorés",
-            "Deux patios reliés à l’étage pour faciliter l’accès",
-            "Petit-déjeuner autour du patio principal près de la piscine, accès terrasse pour éviter l’attente",
             "Centre de bien-être : massages, sauna, hammam & soins",
             "Chambres au style marocain avec Wi-Fi gratuit & TV satellite ; suites avec coin salon",
-            "Petit-déjeuner marocain quotidien ; excursions & transfert aéroport (suppl.)",
-            "Quartier Laksour : havre de paix à 5 min de l’agitation de la médina"
+            "Petit-déjeuner marocain quotidien ; excursions & transfert aéroport (suppl.)"
           ],
           "stats": [
             { "label": "Jemaa el-Fna", "value": "2 min" },
@@ -143,8 +141,7 @@
             { "label": "Patios", "value": "2" },
             { "label": "Terrasses", "value": "2" }
           ],
-          "cta_primary": "Nous contacter",
-          "cta_secondary": "Spa & Restaurant"
+          "cta_primary": "Nous contacter"
         }
     },
     "restospa": {

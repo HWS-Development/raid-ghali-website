@@ -9,7 +9,6 @@ export default function AboutUsSection({ className = '' }) {
   return (
     <section
       className={`py-16 ${className}`}
-      style={{ backgroundColor: 'rgb(223 243 234 / 0.4)' }}
     >
       <div className="container mx-auto max-w-[1200px] px-4">
         <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -30,13 +29,24 @@ export default function AboutUsSection({ className = '' }) {
 
             <div className="mt-6 flex gap-3">
               <Link to="/contact" className="btn btn-primary">{t('home.about.cta_primary')}</Link>
-              <Link to="/restaurant-spa" className="btn btn-ghost">{t('home.about.cta_secondary')}</Link>
             </div>
           </div>
 
           {/* Visual / stats */}
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
+              <img
+                src="/images/about1.png"
+                alt=""
+                className="rounded-2xl h-40 md:h-48 w-full object-cover"
+                loading="lazy"
+              />
+              <img
+                src="/images/about2.png"
+                alt=""
+                className="rounded-2xl h-40 md:h-48 w-full object-cover"
+                loading="lazy"
+              />
               <img
                 src="/images/spa1.jpeg"
                 alt=""

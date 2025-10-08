@@ -5,7 +5,8 @@ export default function ServicesTeasers() {
   const { t } = useTranslation();
 
   return (
-    <section className="container mx-auto max-w-[1200px] px-4 pb-16">
+    <section className="container mx-auto max-w-[1200px] px-4 py-16">
+      <h2 className="font-serif text-2xl mb-6 text-center">{t('home.teasers.title')}</h2>
         <div className="grid md:grid-cols-2 gap-6">
         <Link
           to="/restaurant"
