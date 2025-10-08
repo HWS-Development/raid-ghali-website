@@ -3,23 +3,6 @@ import { useTranslation } from 'react-i18next';
 export default function RoomsTeaser({  onView, className = '', seeAllTo = '/rooms' }) {
     const rooms = [
         {
-            id: 'suite-terraka',
-            name_en: "L'Atelier Suite",
-            name_fr: "L'Atelier Suite",
-            size_m2: 15,
-            capacity: 3,
-            bed: '1 twin bed and 1 queen bed',
-            images: [
-            "/images/rooms/L'Atelier Suite1.jpeg",
-            "/images/rooms/L'Atelier Suite2.jpeg",
-            "/images/rooms/L'Atelier Suite3.jpeg",
-            "/images/rooms/L'Atelier Suite4.jpeg",
-            ],
-            amenities: ['AC', 'Garden view', 'Wi-Fi', 'Patio', 'Pool view'],
-            description_en: 'With views of the pool and the patio, this suite offers a seating area, a flat-screen TV and a private bathroom with a shower.',
-            description_fr: 'Avec vue sur la piscine et le patio, cette suite dispose d’un coin salon, d’une télévision à écran plat et d’une salle de bains privative avec douche.'
-        },
-        {
             id: 'interior',
             name_en: 'Roof Suite',
             name_fr: 'Roof Suite',
@@ -80,7 +63,7 @@ export default function RoomsTeaser({  onView, className = '', seeAllTo = '/room
         <Link to={seeAllTo} className="btn btn-ghost">{t('common.see_all')}</Link>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
         {rooms.map((r) => (
           <button
             key={r.id}
