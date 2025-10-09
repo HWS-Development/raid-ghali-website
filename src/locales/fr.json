@@ -98,7 +98,7 @@
               "title": "Centre de Spa",
               "text": "Bien-être indulgent avec rituels de hammam et massages relaxants.",
               "href": "/discover#spa",
-              "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1600&auto=format&fit=crop"
+              "image": "/images/spa.jpeg"
             },
             {
               "id": "sania",
@@ -121,7 +121,7 @@
               "category": "Découvrir",
               "title": "L'AMAZIGH Rooftop",
               "text": "Dînez avec vue panoramique sur la médina et une cuisine marocaine raffinée.",
-              "href": "/restaurant-spa#restaurant",
+              "href": "/restaurant",
               "image": "/images/resto2.jpg"
             }
           ]
